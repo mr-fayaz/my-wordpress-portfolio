@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chat" />
+</head>
+
+<body>
+  <nav class="container">
+    <h1 class="logo"><span style="color: #84cc16;">M.</span>Fayaz</h1>
+    <!-- <ul id="sidemenu">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul> -->
+    <ul id="sidemenu">
+      <li><a href="#hero" class="menu-link">Home</a></li>
+      <li><a href="#about" class="menu-link">About</a></li>
+      <li><a href="#services" class="menu-link">Services</a></li>
+      <li><a href="#portfolio" class="menu-link">Portfolio</a></li>
+      <li><a href="#contact" class="menu-link">Contact</a></li>
+      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+  <section id="hero" class="container hero-section">
+    <div class="header-text">
+      <h1>Hi From<br><span>Muhammad Fayaz,</span><br>A Wordpress Developer</h1>
+      <p>Web development is my passion. Once I dive into building websites, I lose track of time. For me, WordPress development isn’t just work—it’s a creative puzzle I love solving with heart. That’s the developer’s way!</p>
+    </div>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/muhammad-fiaz000" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/fayazyousafzaiofficial/profilecard/?igsh=MTVyb2k1ZTB3enN0aQ=="
+        target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="http://discordapp.com/users/muhammadfiaz000" target="_blank"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://www.tiktok.com/@fayazyousafzaiofficial?_t=8s2HCwBdrQm&_r=1" target="_blank"><i
+          class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.facebook.com/fayaz.yousafzai.545?mibextid=ZbWKwL" target="_blank"><i
+          class="fa-brands fa-facebook"></i></a>
+    </div>
+    <a href="#contact">
+      <button class="first-button"><span class="material-symbols-outlined">chat</span>Contact Me</button>
+    </a>
+  </section>
+  <!-----------------------------about--------------------------------------------->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-cal-1">
+          <img src="images/about-img.webp" style="border-radius: 10px;">
+        </div>
+        <div class="about-cal-2">
+          <h1 class="sub-title">About <span style="color: #84cc16;">Me</span></h1>
+          <p style="line-height: 24px; font-size: 16px;">Hi, I’m Fayaz, a passionate WordPress Developer specializing in crafting responsive, user-friendly websites. With expertise in Elementor, WooCommerce, theme customization, plugin integration, and SEO-friendly development, I focus on building websites that are both functional and visually appealing.<br><br>I believe a great website not only looks good but also delivers a smooth user experience. I’m always eager to learn new tools and stay updated with the latest WordPress trends to keep my work fresh, fast, and effective.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('approach')">My Approach</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li style="margin-bottom: -12px;"><span>1.</span> Wordpress</li>
+              <li style="margin-bottom: -12px;"><span>2.</span> Elementor & Elementor Pro</li>
+              <li style="margin-bottom: -12px;"><span>3.</span> WooCommerce</li>
+              <li style="margin-bottom: -12px;"><span>4.</span> Theme & Plugin Customization</li>
+              <li style="margin-bottom: -12px;"><span>5.</span> Responsive Design</li>
+              <li style="margin-bottom: -12px;"><span>5.</span> SEO-Friendly Development & Speed Optimization</li>
+              <li style="margin-bottom: -12px;"><span>6.</span> HTML</li>
+              <li style="margin-bottom: -12px;"><span>7.</span> CSS</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>apr 2025 - Current</span><br>Freelancer/Personal Projects</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="approach">
+            <ul>
+              <li><span class="approach">1.</span> Requirement Gathering & Planning</li>
+              <li><span class="approach">2.</span> Design Implementation</li>
+              <li><span class="approach">3.</span> Theme & Plugin Setup</li>
+              <li><span class="approach">4.</span> Custom Development</li>
+              <li><span class="approach">5.</span> Optimization & Testing</li>
+              <li><span class="approach">6.</span> Final Review & Launch</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2018 - 2020</span><br>Matriculation (Science)<br>From,<br>Paramount Academy Shinkiari</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------------------services-------------------------------------------->
+  <section id="services">
+    <div class="container">
+      <h1 class="sub-title">I Can <span style="color: #84cc16;">Do</span></h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-brands fa-wordpress"></i>
+          <h2>WordPress Website Design</h2>
+          <p>I create custom WordPress websites that are fast, responsive, and easy to manage. My goal is to build a site that aligns with your brand and engages your audience effectively.</p>
+          <a href="#contact">
+            <button><span class="material-symbols-outlined">chat</span>Contact Me</button>
+          </a>
+        </div>
+        <div>
+          <i class="fa-brands fa-elementor"></i>
+          <h2>Elementor Page Building</h2>
+          <p>I build clean and responsive pages using Elementor that bring your content to life. My aim is to deliver designs that are easy to manage and visually impactful.</p>
+          <br>
+          <a href="#contact">
+            <button><span class="material-symbols-outlined">chat</span>Contact Me</button>
+          </a>
+        </div>
+        <div>
+          <i class="fa-solid fa-store"></i>
+          <h2>WooCommerce Store Setup</h2>
+          <p>I set up fully functional WooCommerce stores with product pages, cart, and secure checkout. My focus is on smooth shopping experiences that help grow your business.</p>
+          <a href="#contact">
+            <button><span class="material-symbols-outlined">chat</span>Contact Me</button>
+          </a>
+        </div>
+        <div>
+          <i class="fa fa-cogs"></i>
+          <h2>Theme & Plugin Customization</h2>
+          <p>I customize WordPress themes and plugins to match your specific design and feature needs. My goal is to ensure everything works smoothly and fits your brand perfectly.</p>
+          <a href="#contact">
+            <button><span class="material-symbols-outlined">chat</span>Contact Me</button>
+          </a>
+        </div>
+        <div>
+          <i class="fa fa-tachometer-alt"></i>
+          <h2>Speed & SEO Optimization</h2>
+          <p>I optimize your WordPress site for faster loading and better SEO performance. My focus is on improving user experience and helping your site rank higher.</p>
+          <br>
+          <a href="#contact">
+            <button><span class="material-symbols-outlined">chat</span>Contact Me</button>
+          </a>
+        </div>
+        <div>
+          <i class="fa fa-refresh"></i>
+          <h2>Bug Fixing & Updates</h2>
+          <p>I fix WordPress bugs, errors, and layout issues to keep your site running smoothly. I also provide regular updates to ensure security and performance.</p>
+          <br>
+          <br>
+          <br>
+          <a href="#contact">
+            <button><span class="material-symbols-outlined">chat</span>Contact Me</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------------------My Projects And Case Studys-------------------------->
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My <span style="color: #84cc16;">Projects </h1>
+      <div class="work-list">
+        <div class="work">
+            <img src="images/Project-3.webp">
+            <div class="layer">
+              <h3>Coming Soon</h3>
+              <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+          </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/Project-3.webp">
+        <div class="layer">
+          <h3>Coming Soon</h3>
+          <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+      </a>
+    </div>
+  </div>
+
+      <div class="work">
+          <img src="images/Project-3.webp">
+          <div class="layer">
+            <h3>Coming Soon</h3>
+            <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+        </a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/Project-3.webp">
+      <div class="layer">
+        <h3>Coming Soon</h3>
+        <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-------------------------contact------------------------------>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact <span style="color: #84cc16;">Me</span></h1>
+          <p> <a href="mailto:fayazrehman000@gmail.com"><i class="fa-solid fa-envelope"></i>
+              fayazrehman000@gmail.com</a></p>
+          <p> <a href="tel:+923348356981"><i class="fa-solid fa-phone"></i> +92 334 8356 981</a></p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/muhammad-fiaz000" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/923348356981" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/fayazyousafzaiofficial/profilecard/?igsh=MTVyb2k1ZTB3enN0aQ=="
+              target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://discordapp.com/users/muhammadfiaz000" target="_blank"><i
+                class="fa-brands fa-discord"></i></a>
+            <a href="https://www.tiktok.com/@fayazyousafzaiofficial?_t=8s2HCwBdrQm&_r=1" target="_blank"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/fayaz.yousafzai.545?mibextid=ZbWKwL" target="_blank"><i
+                class="fa-brands fa-facebook"></i></a>
+          </div>
+          <a href="images/m-fayaz resume.pdf" Download class="btn" style="font-weight: 600;">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+            <button type="submit" class="send-now">Send Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="location">
+      <p><i class="fa-solid fa-location-dot"></i> Khandhari, Shinkiari, Mansehra, KPK</p>
+    </div>
+  </section>
+  <!-----------------------------javascript linked------------------------------------------>
+  <script src="script.js"></script>
+</body>
+
+</html>
